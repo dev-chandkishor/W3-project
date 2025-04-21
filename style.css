@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #282a35;
+}
+ .parent{
+    border: 1px solid white;
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    display: flex;
+}
+.left_div{
+    /* border: 1px solid green; */
+    height: 56px;
+    width: 620px;
+    padding: 1vw 1vw;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1.5vw;
+    background-color: white;
+}
+.search{
+    width: 175px;
+    height: 37px;
+    border: 1px solid #c8c8c8;
+    /* outline: 2px #04aa6d; */
+    border-radius: 25px;
+    margin-top: -8px;
+    display: flex;
+}
+.search_input{
+    width: 175px;
+    height:36px;
+    border-radius: 25px;
+    /* outline: 2px solid green; */
+}
+.search i{
+  font-size: 22px;
+  margin-left:-35px;
+  margin-top: 5px;
+}
+::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight:100;
+}
+select{
+    border:none;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+}
+.center{
+    border: 1px solid white;
+    height: 56px;
+    width: 55px;
+    background-color: white;
+}
+.center i{
+    display: flex;
+    font-size: 22px;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px;
+    /* top: 12px;
+    left: 12px; */
+}
+.right_div{
+    border: 1px solid white;
+    height: 56px;
+    width: 630px;
+    display: flex;
+    background-color: white;
+        /* padding: 1vw 1vw; */
+}
+.blue_icons{
+    width: 150px;
+    height: 54px;
+    border: 1px solid white;
+    background-color: white;
+}
+.blue_icons img{
+    position: relative;
+    /* padding: 1vw 0;
+    margin-top: 10px; */
+    top: 18px;
+}
+.blue_icons p{
+    position: relative;
+    padding: 0 2vw;
+    top: -5px;
+}
+.loging{
+    border: 1px solid #d9eee1;
+    height: 48px;
+    width: 200px;
+    display: flex;
+    /* padding-top: px; */
+    border-radius: 30px;
+    background-color:#d9eee1 ;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+.loging:hover{
+    background-color: #06754d;
+    border: 1px solid #06754d ;
+}
+.loging div{
+    width:60%;
+    height: 45px;
+    border: 1px solid #04aa6d;
+    padding: 1vw 1vw;
+    border-radius: 30px;
+    color: white;
+    background-color: #04aa6d;
+}
+.loging p{
+    padding-top: 15px;
+}
